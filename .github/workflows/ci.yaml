@@ -19,6 +19,7 @@ jobs:
           - "02_find_a_string"
           - "03_symmetric_difference"
           - "04_longest_consecutive_sequence"
+          - "05_merge_the_tools"
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
