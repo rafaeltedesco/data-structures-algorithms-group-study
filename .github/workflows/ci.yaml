@@ -29,4 +29,5 @@ jobs:
           uv sync
       - name: Run tests
         run: |
-          uv run pytest week-1/challenges/rafatedesco_python/01_swap_case/tests
+          cd "week-1/challenges/rafatedesco_python/01_swap_case"
+          uv run pytest tests
