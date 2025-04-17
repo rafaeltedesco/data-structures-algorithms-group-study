@@ -1,7 +1,7 @@
 [project]
 name = "04-longest-consecutive-sequence"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python project to find the length of the longest consecutive sequence in a list of integers."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
