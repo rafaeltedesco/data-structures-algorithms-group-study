@@ -42,9 +42,9 @@ Thank you for your interest in contributing to this repository! Please follow th
      ```
 
 8. **Open a Pull Request**  
-   - Go to your forked repository on GitHub.
-   - Click "Compare & pull request."
-   - Ensure the base repository is this repository and the base branch is `main`.
+   - Go to your forked repository on GitHub.  
+   - Click "Compare & pull request."  
+   - Ensure the base repository is this repository and the base branch is the corresponding week branch (e.g., `week-1`).  
    - Add a meaningful title and description, then click "Create pull request."
 
 ## Big O Notation Guidance

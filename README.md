@@ -5,7 +5,7 @@ Welcome to the Data Structures and Algorithms Study Group! This repository is de
 ## Rules
 
 1. Each week, challenges will be assigned, and a branch for that week will be created (e.g., `week-1`, `week-2`).
-2. Developers should fork the repository, complete the challenges in their fork, and then open a Pull Request (PR) to the `main` branch.
+2. Developers should fork the repository, complete the challenges in their fork, and then open a Pull Request (PR) to the corresponding week branch.
 3. You can implement the challenges in any programming language you prefer.
 4. Create a folder with your name followed by the programming language you are using (e.g., `adriano_java`).
 5. Inside your folder, create subfolders for each challenge. Use the format `challenge-number_challenge-name` (e.g., `01_longest_substring_in_a_string`).
@@ -47,7 +47,7 @@ git push origin week-1
 ### Step 6: Open a Pull Request
 1. Go to your forked repository on GitHub.
 2. Click "Compare & pull request."
-3. Ensure the base repository is this repository and the base branch is `main`.
+3. Ensure the base repository is this repository and the base branch is the corresponding week branch (e.g., `week-1`).
 4. Add a meaningful title and description, then click "Create pull request."
 
 ## Example Structure
