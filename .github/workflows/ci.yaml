@@ -18,6 +18,7 @@ jobs:
           - "01_swap_case"
           - "02_find_a_string"
           - "03_symmetric_difference"
+          - "04_longest_consecutive_sequence"
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
