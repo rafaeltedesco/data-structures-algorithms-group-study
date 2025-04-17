@@ -78,6 +78,10 @@ Including this analysis helps others understand the trade-offs of your solution 
 - Test your code thoroughly before submitting.
 - Add meaningful commit messages to describe your changes.
 - If you are solving a challenge in a new language, ensure the folder structure is consistent with the examples provided in the `README.md`.
+- **Create Unit Tests**: If possible, include unit tests for your code to verify its correctness. Place the test files in the same folder as your solution or in a dedicated `tests` folder.
+- **Set Up a CI Pipeline**: If you are familiar with Continuous Integration (CI) tools (e.g., GitHub Actions), consider adding a pipeline to automatically run your tests. This ensures that your code works as expected and maintains quality.
+- **Explain Your Solution**: In your pull request description or in a `README.md` file within your solution folder, explain your approach and why you chose it. Highlight the trade-offs, challenges, and any assumptions made.
+- **Provide References**: If you used any reference material (e.g., articles, books, or tutorials) to develop your solution, include them in your explanation. This helps others understand the context and learn from your work.
 
 ## Example Folder Structure
 
