@@ -25,6 +25,7 @@ jobs:
           pyproject-file: "week-1/challenges/rafatedesco_python/01_swap_case/pyproject.toml"
       - name: Install dependencies
         run: |
+          cd "week-1/challenges/rafatedesco_python/01_swap_case"
           uv sync
       - name: Run tests
         run: |
