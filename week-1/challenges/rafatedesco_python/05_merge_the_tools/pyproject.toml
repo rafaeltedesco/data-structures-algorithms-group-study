@@ -1,0 +1,12 @@
+[project]
+name = "05-merge-the-tools"
+version = "0.1.0"
+description = "A Python project to split a string into substrings of size k and remove duplicate characters from each substring."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.5",
+]
