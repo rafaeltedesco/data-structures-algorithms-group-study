@@ -9,9 +9,14 @@ on:
       - "**"
 
 jobs:
-  challenge-01:
-    name: Challenge 01 - Swap Case
+  run-challenges:
+    name: Run Challenges
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        challenge:
+          - "01_swap_case"
+          - "02_find_a_string"
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -22,12 +27,12 @@ jobs:
       - name: Install required version defined in pyproject.toml
         uses: astral-sh/setup-uv@v5
         with:
-          pyproject-file: "week-1/challenges/rafatedesco_python/01_swap_case/pyproject.toml"
+          pyproject-file: "week-1/challenges/rafatedesco_python/${{ matrix.challenge }}/pyproject.toml"
       - name: Install dependencies
         run: |
-          cd "week-1/challenges/rafatedesco_python/01_swap_case"
+          cd "week-1/challenges/rafatedesco_python/${{ matrix.challenge }}"
           uv sync
       - name: Run tests
         run: |
-          cd "week-1/challenges/rafatedesco_python/01_swap_case"
+          cd "week-1/challenges/rafatedesco_python/${{ matrix.challenge }}"
           uv run pytest tests
