@@ -17,6 +17,7 @@ jobs:
         challenge:
           - "01_swap_case"
           - "02_find_a_string"
+          - "03_symmetric_difference"
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
