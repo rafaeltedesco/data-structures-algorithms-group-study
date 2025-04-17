@@ -9,7 +9,8 @@ on:
       - "**"
 
 jobs:
-  build:
+  challenge-01:
+    name: Challenge 01 - Swap Case
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -18,10 +19,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.8'
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+      - name: Install required version defined in pyproject.toml
+        uses: astral-sh/setup-uv@v5
+        with:
+          pyproject-file: "week-1/challenges/rafatedesco_python/01_swap_case/pyproject.toml"
       - name: Run tests
         run: |
-          pytest week-1/challenges/rafatedesco_python/tests
+          uv run pytest week-1/challenges/rafatedesco_python/01_swap_case/tests
