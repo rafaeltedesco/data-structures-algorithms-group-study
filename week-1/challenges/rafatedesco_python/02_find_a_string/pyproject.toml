@@ -1,0 +1,12 @@
+[project]
+name = "02-find-a-string"
+version = "0.1.0"
+description = "A Python project to count occurrences of a substring in a string."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.5",
+]
